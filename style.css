@@ -1,0 +1,243 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Synthview Type Design
+ * License URL: http://www.fontspring.com/fflicense/synthview
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'NovecentowideBookRegular';
+    src: url('fonts/novecentowide_book_macroman/Novecentowide-Book-webfont.eot');
+    src: url('fonts/novecentowide_book_macroman/Novecentowide-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/novecentowide_book_macroman/Novecentowide-Book-webfont.woff') format('woff'),
+         url('fonts/novecentowide_book_macroman/Novecentowide-Book-webfont.ttf') format('truetype'),
+         url('fonts/novecentowide_book_macroman/Novecentowide-Book-webfont.svg#NovecentowideBookRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+margin:0;
+background-color: #000;
+
+}
+
+.content{
+width:100%;
+position:relative;
+text-align: center;
+}
+
+.background_intro {
+background-image: url('images/stripe_bg.gif');
+background-repeat: repeat;
+}
+
+
+.background_capture {
+background-image: url('images/capture_bg.gif');
+background-repeat: repeat;
+}
+
+.background_phplite {
+background-image: url('images/phplite_bg.gif');
+background-repeat: repeat;
+}
+
+.background_others {
+background-image: url('images/others_bg.gif');
+background-repeat: repeat;
+}
+
+.background_about{
+background-image: url('images/stripe_bg_light.gif');
+background-repeat: repeat;
+}
+
+.name {
+font-family: 'NovecentowideBookRegular', sans-serif;
+font-size: 48px;
+color:#FFF;
+}
+
+.title_name, .title_name a{
+font-family: Arial, sans-serif;
+font-weight:normal;
+font-size: 16px;
+color:#fff;
+}
+
+.title_name a:visited, .title_name a:active, .title_name a:link{
+	text-decoration: none;
+	color:white;
+}
+
+.title_name a:hover {
+	text-decoration: underline;
+}
+
+.position_name{
+width:100%;
+}
+
+.logo_position{
+text-align: center;
+position:relative;
+top:30%;
+}
+
+.launch {
+position:absolute;
+bottom:5px;
+width: 100%;
+text-align: center;
+}
+
+.icon_menu {
+position:absolute;
+bottom:50px;
+width: 100%;
+text-align: center;
+}
+
+
+.other_menu {
+position:absolute;
+bottom:3px;
+width: 100%;
+text-align: center;
+}
+
+.buffer {
+text-align:center;
+background-color: #000;
+height: 40px;
+
+}
+
+.buffer p {
+font-family:'NovecentowideBookRegular' , sans-serif;
+font-size:18px;
+color:#FFF;
+padding-bottom:0px;
+padding-top:12px;
+margin: 0;
+}
+
+.icon_main {
+
+margin:auto; 
+width: 15em; height: 15em; 
+-webkit-border-radius: 25em; 
+-moz-border-radius: 25em;
+background-color:white;
+}
+
+.icon_main img {
+text-align: center; margin-top: 3em;
+}
+
+.push_down {width:100px;}
+
+/*link dimensions*/
+.link {
+	width:168px;
+	height:27px;
+	display:block;
+}
+
+.icon_links{
+	width:103px;
+	height:100px;
+	display:block;
+}
+
+.logo {
+	width:212px;
+	height:250px;
+}
+
+/*other_menu images*/
+a.other_menu_adnpromo {background-image:url('images/other_menu_adnpromo.png');}
+a.other_menu_chirpstorm {background-image:url('images/other_menu_chirpstorm.png');}
+a.other_menu_deshirhymes {background-image:url('images/other_menu_deshirhymes.png');}
+a.other_menu_icons {background-image:url('images/other_menu_icons.png');}
+
+/*other_menu positioning*/
+div.other_menu div a {float:left; margin-left: 5px;}
+.other_menu_wrapper {width:700px; height:30px; margin:auto;}
+.clear {clear:both;}
+
+/*icons images*/
+a.icon_calender{background-image:url('images/icon_calendar_bw.png');}
+a.icon_settings{background-image:url('images/icon_settings_bw.png');}
+a.icon_events{background-image:url('images/icon_events_bw.png');}
+a.icon_location{background-image:url('images/icon_location_bw.png');}
+a.icon_search{background-image:url('images/icon_search_bw.png');}
+
+a.icon_calender:hover {background-image:url('images/icon_calendar_color.png');}
+a.icon_settings:hover {background-image:url('images/icon_settings_color.png');}
+a.icon_events:hover {background-image:url('images/icon_events_color.png');}
+a.icon_location:hover {background-image:url('images/icon_location_color.png');}
+a.icon_search:hover {background-image:url('images/icon_search_color.png');}
+
+/*icons positioning*/
+div.icons_menu_wrapper a {float:left; }
+.icons_menu_wrapper {width:550px; height:100px; margin:auto;}
+.extra_margin {margin-left:20px}
+
+div.launch a:link, div.launch a:visited, div.launch a:hover, div.launch a:active {
+text-decoration:none; 
+}
+/*about & contacts*/
+.column1 {
+	float:left;
+	width:400px;
+}
+
+.column2 {
+	float:left;
+	width:200px;
+}
+
+.about_content_wrapper{
+	margin:auto;
+	width:600px;
+	text-align:left; 
+}
+
+.column1 h1, .column2 h1 {
+	font-family:arial, sans-serif;
+	font-size:25px;
+	color:#000; 
+}
+
+.column1 p, .column2 p {
+	font-family:'Times New Roman', Times, serif;
+	font-size:18px;
+	color:#000;
+}
+
+.copy {
+	font-family: Arial, sans-serif;
+	font-size:12px;
+	color:white;
+}
